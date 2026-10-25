@@ -1,0 +1,10 @@
+# dsh-window-maximize 的 bundle patch 层。
+#
+# package.json 的 `dsh.bundle.patch` 指向本文件：loader 把它插入 profile 的组合树
+# （bundle 层之后、用户自己的 cordis.patch.yml 之前）。
+#
+# 注意：`name` 必须与安装的包名一致，否则 loader 只 warn 后跳过这一行，
+# 表现就是"窗口没最大化，但也不报错"。
+- insert:
+    - id: dsh-window-maximize
+      name: dsh-window-maximize

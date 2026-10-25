@@ -1,0 +1,42 @@
+{
+  "name": "dsh-window-maximize",
+  "version": "0.1.1",
+  "description": "DSH host plugin: maximize the desktop app's main window on every start (Windows).",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "turuishers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turuishers/dsh-window-maximize.git"
+  },
+  "homepage": "https://github.com/turuishers/dsh-window-maximize#readme",
+  "bugs": {
+    "url": "https://github.com/turuishers/dsh-window-maximize/issues"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "files": [
+    "index.js",
+    "runtime",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "window",
+    "maximize",
+    "windows",
+    "desktop"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
