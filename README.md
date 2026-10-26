@@ -40,7 +40,7 @@ The watcher waits up to 120 seconds for the window and then gives up, so nothing
 
    ```sh
    cd "$DSH_HOME/profiles/<name>"          # e.g. web
-   pnpm add "dsh-window-maximize@git+https://github.com/<user>/dsh-window-maximize.git"
+   pnpm add "dsh-window-maximize@git+https://github.com/turuishers/dsh-window-maximize.git"
    ```
 
 2. Add `dsh-window-maximize` to `dsh.profile.bundles` in that profile's `package.json`. That list — not the

@@ -38,7 +38,7 @@ new BrowserWindow({ width: 1280, height: 820, minWidth: 520, minHeight: 600, sho
 
    ```sh
    cd "$DSH_HOME/profiles/<name>"          # 例如 web
-   pnpm add "dsh-window-maximize@git+https://github.com/<user>/dsh-window-maximize.git"
+   pnpm add "dsh-window-maximize@git+https://github.com/turuishers/dsh-window-maximize.git"
    ```
 
 2. 在该 profile 的 `package.json` 里把 `dsh-window-maximize` 加进 `dsh.profile.bundles`。
